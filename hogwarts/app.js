@@ -77,4 +77,8 @@ $(() => {
     $(container).append($pet);
     $house.after($pet);
     //"Commit 5 - The days go by slowly and the years go by too fast"
+    $('.secret').hide('slow').delay(2000).show('slow');
+    $leash.addClass("cabbage")
+    $leash.removeClass("cabbage");
+    // "Commit 6 - A cauliflower is a cabbage with a college education - Mark Twain"
 });
