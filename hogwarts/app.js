@@ -17,7 +17,7 @@ else{
     const $pet = $('<h4>').attr('class','dog').text('Jackie');
     const $wand= $('<h4>').text('Birch Wand with Phoenix Feather Core');
 //Commit 2 - I added more elements. My power grows with my dedication and hard work
-    const $storage = $('<ul>').attr('storage','trunk');
+    const $storage = $('<ul>').prop('storage','trunk');
     const $beer = $('<li>').text('butter beer');
     const $cloak = $('<li>').text('invisibility cloak').attr('class','secret');
     const $map = $('<li>').text('magic map').attr('class','secret');
@@ -81,4 +81,7 @@ $(() => {
     $leash.addClass("cabbage")
     $leash.removeClass("cabbage");
     // "Commit 6 - A cauliflower is a cabbage with a college education - Mark Twain"
+    $spr.text('Fall 2024')
+    $storage.prepend($beer);
+    $storage.prop("storage","chest");
 });
