@@ -73,7 +73,7 @@ $(() => {
     $wand.text("This is my really cool wand made of oak and dragon claw");
     $wand.css('color','indigo')
     $pet.remove();
-    // $('body').append($pet);
+    // $('body').append($pet)
     $(container).append($pet);
     $house.after($pet);
     //"Commit 5 - The days go by slowly and the years go by too fast"
