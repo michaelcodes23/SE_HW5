@@ -17,6 +17,14 @@ else{
     const $pet = $('<h4>').attr('class','dog').text('Jackie');
     const $wand= $('<h4>').text('Birch Wand with Phoenix Feather Core');
 //Commit 2 - I added more elements. My power grows with my dedication and hard work
+    const $storage = $('<ul>').attr('storage','trunk');
+    const $beer = $('<li>').text('butter beer');
+    const $cloak = $('<li>').text('invisibility cloak').attr('class','secret');
+    const $map = $('<li>').text('magic map').attr('class','secret');
+    const $turner = $('<li>').text('time turner').attr('class','secret');
+    const $leash = $('<li>').text('leash').attr('class','dog');
+    const $beans = $('<li>').text('Bertie Botts Ever Flavor[Jelly] Beans');
+
 
 $(() => {
 
@@ -25,5 +33,7 @@ $(() => {
     $(container).append($house);
     $(container).append($pet);
     $(container).append($wand);
+    $(container).append($storage);
+    $storage.append($beer, $cloak, $map, $turner, $leash, $beans);
     console.log($container);
 });
