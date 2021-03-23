@@ -1,0 +1,55 @@
+body{
+    background-image: url("background.jpg"); 
+    background-repeat: repeat-x;
+    background-color: #d6d6d6;
+    line-height: 1.7;
+}
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#left{
+    float:left; 
+    display:inline; 
+ 
+    background-color: white;
+    margin-left: 30px;
+    max-width: 50%;
+
+}
+#right{
+    float:left; 
+    display:inline; 
+    margin-left: 20px;
+    background-color: white;
+    margin-right: 30px;
+    max-width: 25%;
+    
+}
+#rightImg{
+    display: block;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.link{
+    color: red;
+    font-weight: bold;
+}
+#eCard1{
+    margin: 0 auto;
+}
+.botIcons{
+ 
+    margin-left: auto;
+    margin-right: auto; 
+    position: absolute; 
+    bottom: 10px; 
+    width: 50%;  
+}
+.footer{
+    border-top-style: dotted;
+    border-bottom-style: solid;
+}
